@@ -1,0 +1,15 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting gitpython
+  Downloading GitPython-3.1.40-py3-none-any.whl.metadata (12 kB)
+Collecting gitdb<5,>=4.0.1 (from gitpython)
+  Downloading gitdb-4.0.11-py3-none-any.whl.metadata (1.2 kB)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /home/hara/.local/lib/python3.7/site-packages (from gitpython) (4.7.1)
+Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython)
+  Downloading smmap-5.0.1-py3-none-any.whl.metadata (4.3 kB)
+Downloading GitPython-3.1.40-py3-none-any.whl (190 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 190.6/190.6 kB 2.2 MB/s eta 0:00:00
+Downloading gitdb-4.0.11-py3-none-any.whl (62 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.7/62.7 kB 15.0 MB/s eta 0:00:00
+Downloading smmap-5.0.1-py3-none-any.whl (24 kB)
+Installing collected packages: smmap, gitdb, gitpython
+Successfully installed gitdb-4.0.11 gitpython-3.1.40 smmap-5.0.1
